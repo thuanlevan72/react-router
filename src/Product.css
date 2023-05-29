@@ -1,0 +1,14 @@
+.box-product{
+  display: grid;
+  width: 70%;
+  min-width: 1000px;
+  margin: 20px auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  column-gap: 10px;
+  row-gap: 20px;
+}
+.box-product > div{
+  width: 100%;
+ padding: 20px 0;
+}
